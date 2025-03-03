@@ -26,7 +26,7 @@ struct FuelEfficiencyView: View {
                     Text("Fuel Used: \(fuelEfficiency.fuelUsed.formatted()) liters")
                         .font(.system(size: 24))
                     
-                    Text("Efficiency: \(fuelEfficiency.efficiency.formatted()) liters per 100 km")
+                    Text("Efficiency: \(fuelEfficiency.efficiency.formatted(.number.precision(.significantDigits(2)))) liters per 100 km")
                         .font(.system(size: 24))
                 }
                 .padding()
@@ -47,7 +47,7 @@ struct FuelEfficiencyView: View {
                 .textFieldStyle(.roundedBorder)
                 .keyboardType(.decimalPad)
             
-            TextField("Fuel Used (liters)", text: $viewModel.providedFuelUsed)
+                TextField("Fuel Used (liters)", text: $viewModel.providedFuelUsed)
                 .textFieldStyle(.roundedBorder)
                 .keyboardType(.decimalPad)
             
