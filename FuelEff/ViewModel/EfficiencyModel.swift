@@ -21,5 +21,22 @@ class FuelEfficiencyViewModel {
     var recoverySuggestion: String = ""
     
    
+    var fuelEfficiency: FuelEfficiency? {
+        
+    guard let distance = Double(providedDistance), distance > 0 else {
+            recoverySuggestion = "Please provide a positive value for the distance."
+            return nil
+        }
+        
+       
+        guard let fuelUsed = Double(providedFuelUsed), fuelUsed >= 0 else {
+            recoverySuggestion = "Please provide a positive value for the fuel used."
+            return nil
+        }
         
         
+        recoverySuggestion = "" // No error message yet, for now
+        return FuelEfficiency(distance: distance, fuelUsed: fuelUsed)
+    }
+    
+  
