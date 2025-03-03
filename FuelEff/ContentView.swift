@@ -31,6 +31,14 @@ struct FuelEfficiencyView: View {
                 }
                 .padding()
                 
+            } else {
+                
+                ContentUnavailableView(
+                    "No fuel 4 u, ERROR",
+                    systemImage: "gear.badge.questionmark",
+                    description: Text(viewModel.recoverySuggestion)
+                )
+                .frame(height: 300)
             }
             
             
@@ -44,8 +52,14 @@ struct FuelEfficiencyView: View {
                 .keyboardType(.decimalPad)
             
         }
-        
-        
+        // Extra space at bottom
+        Spacer()
+    }
+    
+}
+
+
+
 #Preview {
     FuelEfficiencyView()
 }
