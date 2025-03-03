@@ -7,18 +7,21 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+
+            
+            // INPUT
+            TextField("Distance (km)", text: $viewModel.providedDistance)
+                .textFieldStyle(.roundedBorder)
+                .keyboardType(.decimalPad)
+            
+            TextField("Fuel Used (liters)", text: $viewModel.providedFuelUsed)
+                .textFieldStyle(.roundedBorder)
+                .keyboardType(.decimalPad)
+            
+     
+        
+        
+#Preview {
+    FuelEfficiencyView()
 }
 
-#Preview {
-    ContentView()
-}
