@@ -47,7 +47,7 @@ struct FuelEfficiencyView: View {
                 .textFieldStyle(.roundedBorder)
                 .keyboardType(.decimalPad)
             
-                TextField("Fuel Used (liters)", text: $viewModel.providedFuelUsed)
+            TextField("Fuel Used (liters)", text: $viewModel.providedFuelUsed)
                 .textFieldStyle(.roundedBorder)
                 .keyboardType(.decimalPad)
             
