@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7CE5B8D62D763DBA00774D5C /* Efficiency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8CB2D763DBA00774D5C /* Efficiency.swift */; };
+		7CE5B8D72D763DBA00774D5C /* EfficiencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8CF2D763DBA00774D5C /* EfficiencyModel.swift */; };
+		7CE5B8D82D763DBA00774D5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8D32D763DBA00774D5C /* ContentView.swift */; };
+		7CE5B8D92D763DBA00774D5C /* FuelEffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8D42D763DBA00774D5C /* FuelEffApp.swift */; };
+		7CE5B8DA2D763DBA00774D5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE5B8CD2D763DBA00774D5C /* Preview Assets.xcassets */; };
+		7CE5B8DB2D763DBA00774D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE5B8D22D763DBA00774D5C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7CE5B8B12D763B0A00774D5C /* FuelEff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelEff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE5B8CB2D763DBA00774D5C /* Efficiency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Efficiency.swift; sourceTree = "<group>"; };
+		7CE5B8CD2D763DBA00774D5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CE5B8CF2D763DBA00774D5C /* EfficiencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficiencyModel.swift; sourceTree = "<group>"; };
+		7CE5B8D22D763DBA00774D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE5B8D32D763DBA00774D5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CE5B8D42D763DBA00774D5C /* FuelEffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEffApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7CE5B8B32D763B0A00774D5C /* FuelEff */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FuelEff;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7CE5B8AE2D763B0A00774D5C /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		7CE5B8A82D763B0A00774D5C = {
 			isa = PBXGroup;
 			children = (
-				7CE5B8B32D763B0A00774D5C /* FuelEff */,
+				7CE5B8D52D763DBA00774D5C /* FuelEff */,
 				7CE5B8B22D763B0A00774D5C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,51 @@
 				7CE5B8B12D763B0A00774D5C /* FuelEff.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE5B8CC2D763DBA00774D5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5B8CB2D763DBA00774D5C /* Efficiency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CE5B8CE2D763DBA00774D5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5B8CD2D763DBA00774D5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CE5B8D02D763DBA00774D5C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5B8CF2D763DBA00774D5C /* EfficiencyModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7CE5B8D12D763DBA00774D5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CE5B8D52D763DBA00774D5C /* FuelEff */ = {
+			isa = PBXGroup;
+			children = (
+				7CE5B8CC2D763DBA00774D5C /* Model */,
+				7CE5B8CE2D763DBA00774D5C /* Preview Content */,
+				7CE5B8D02D763DBA00774D5C /* ViewModel */,
+				7CE5B8D12D763DBA00774D5C /* Views */,
+				7CE5B8D22D763DBA00774D5C /* Assets.xcassets */,
+				7CE5B8D32D763DBA00774D5C /* ContentView.swift */,
+				7CE5B8D42D763DBA00774D5C /* FuelEffApp.swift */,
+			);
+			path = FuelEff;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +111,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7CE5B8B32D763B0A00774D5C /* FuelEff */,
 			);
 			name = FuelEff;
 			packageProductDependencies = (
@@ -109,6 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE5B8DA2D763DBA00774D5C /* Preview Assets.xcassets in Resources */,
+				7CE5B8DB2D763DBA00774D5C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE5B8D62D763DBA00774D5C /* Efficiency.swift in Sources */,
+				7CE5B8D72D763DBA00774D5C /* EfficiencyModel.swift in Sources */,
+				7CE5B8D82D763DBA00774D5C /* ContentView.swift in Sources */,
+				7CE5B8D92D763DBA00774D5C /* FuelEffApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
