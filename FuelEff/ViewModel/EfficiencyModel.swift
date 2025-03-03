@@ -13,7 +13,7 @@ class FuelEfficiencyViewModel {
     // MARK: Stored properties
     
     // Holds whatever the user has typed in the text fields
-    var providedDistance: String
+    var givenDistance: String
     var providedFuelUsed: String
     
     // Holds an appropriate error message, if there was a
@@ -23,7 +23,7 @@ class FuelEfficiencyViewModel {
     
     var fuelEfficiency: FuelEfficiency? {
         
-        guard let distance = Double(providedDistance), distance > 0 else {
+        guard let distance = Double(givenDistance), distance > 0 else {
             recoverySuggestion = "Please provide a positive value for the distance."
             return nil
         }
@@ -44,7 +44,7 @@ class FuelEfficiencyViewModel {
         providedFuelUsed: String = "",
         recoverySuggestion: String = ""
     ) {
-        self.providedDistance = providedDistance
+        self.givenDistance = providedDistance
         self.providedFuelUsed = providedFuelUsed
         self.recoverySuggestion = recoverySuggestion
     }
