@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7CE5B8D62D763DBA00774D5C /* Efficiency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8CB2D763DBA00774D5C /* Efficiency.swift */; };
 		7CE5B8D72D763DBA00774D5C /* EfficiencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8CF2D763DBA00774D5C /* EfficiencyModel.swift */; };
-		7CE5B8D82D763DBA00774D5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8D32D763DBA00774D5C /* ContentView.swift */; };
+		7CE5B8D82D763DBA00774D5C /* FuelEfficiencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8D32D763DBA00774D5C /* FuelEfficiencyView.swift */; };
 		7CE5B8D92D763DBA00774D5C /* FuelEffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5B8D42D763DBA00774D5C /* FuelEffApp.swift */; };
 		7CE5B8DA2D763DBA00774D5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE5B8CD2D763DBA00774D5C /* Preview Assets.xcassets */; };
 		7CE5B8DB2D763DBA00774D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE5B8D22D763DBA00774D5C /* Assets.xcassets */; };
@@ -21,7 +21,7 @@
 		7CE5B8CD2D763DBA00774D5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CE5B8CF2D763DBA00774D5C /* EfficiencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficiencyModel.swift; sourceTree = "<group>"; };
 		7CE5B8D22D763DBA00774D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CE5B8D32D763DBA00774D5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CE5B8D32D763DBA00774D5C /* FuelEfficiencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEfficiencyView.swift; sourceTree = "<group>"; };
 		7CE5B8D42D763DBA00774D5C /* FuelEffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelEffApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +91,7 @@
 				7CE5B8D02D763DBA00774D5C /* ViewModel */,
 				7CE5B8D12D763DBA00774D5C /* Views */,
 				7CE5B8D22D763DBA00774D5C /* Assets.xcassets */,
-				7CE5B8D32D763DBA00774D5C /* ContentView.swift */,
+				7CE5B8D32D763DBA00774D5C /* FuelEfficiencyView.swift */,
 				7CE5B8D42D763DBA00774D5C /* FuelEffApp.swift */,
 			);
 			path = FuelEff;
@@ -172,7 +172,7 @@
 			files = (
 				7CE5B8D62D763DBA00774D5C /* Efficiency.swift in Sources */,
 				7CE5B8D72D763DBA00774D5C /* EfficiencyModel.swift in Sources */,
-				7CE5B8D82D763DBA00774D5C /* ContentView.swift in Sources */,
+				7CE5B8D82D763DBA00774D5C /* FuelEfficiencyView.swift in Sources */,
 				7CE5B8D92D763DBA00774D5C /* FuelEffApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
